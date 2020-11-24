@@ -8,7 +8,7 @@
 import UIKit
 
 class SurveyTableViewController: UITableViewController {
-    
+    //использование словаря из Редактирования
     var surveyDict = EditTableViewController.editDict
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

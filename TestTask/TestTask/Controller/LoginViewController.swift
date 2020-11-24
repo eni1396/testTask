@@ -8,7 +8,7 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-    
+    // логин/пароль
     private let users = [(login:"123", password:"123")]
     
     @IBOutlet weak var progressView: UIProgressView!

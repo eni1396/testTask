@@ -38,7 +38,7 @@ class EditTableViewController: UITableViewController {
         }
         return cell
     }
-    
+    //добавление ячейки по нажатию кнопки +
     @IBAction func addCell(_ sender: UIBarButtonItem) {
         numberOfCells += 1
         tableView.reloadData()
