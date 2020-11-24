@@ -11,9 +11,9 @@ class MainViewController: UIViewController {
     
     @IBOutlet weak var trailing: NSLayoutConstraint!
     @IBOutlet weak var leading: NSLayoutConstraint!
-    
+
     private var menuShown = false
-    // по наатию на кнопку меню появляется sideBar слева
+    // по нажатию на кнопку меню появляется sideBar слева
     @IBAction func tappedButton(_ sender: UIBarButtonItem) {
         if menuShown == false {
             leading.constant = UIScreen.main.bounds.width * 2 / 5
